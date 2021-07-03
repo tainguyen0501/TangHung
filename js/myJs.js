@@ -73,7 +73,7 @@ $('#no').click(() => {
 // generate text in input
 function textGenerate() {
     var n = "";
-    var text = " Changmie dễ thương sô ciu ku-te sĩuuuuuuuu :<<<<<< ";
+    var text = " Cu thằng Hưng nó nho3oooooooooo vcl lun :<<<<<< ";
     var a = Array.from(text);
     var textVal = $('#txtReason').val() ? $('#txtReason').val() : "";
     var count = textVal.length;
@@ -96,7 +96,7 @@ $('#yes').click(function() {
     var audio = new Audio('sound/tick.mp3');
     audio.play();
     Swal.fire({
-        title: 'Nói cho mình lý do bạn thích Changmie đi :vvvv',
+        title: 'Nói đi tại sao chọn Cu t nhỏ ? :vvvv',
         html: true,
         width: 900,
         padding: '3em',
@@ -109,7 +109,7 @@ $('#yes').click(function() {
               no-repeat
             `,
         showCancelButton: true,
-        cancelButtonText: " Nhấn nút gửi kìa nhấn này chi vậy :<<",
+        cancelButtonText: " Nhấn nút Cu bự kìa dm :<<",
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
         confirmButtonColor: '#fe8a71',
@@ -121,8 +121,8 @@ $('#yes').click(function() {
                 width: 900,
                 confirmButtonText: 'Okiiiii lun <3',
                 background: '#fff url("img/iput-bg.jpg")',
-                title: 'Cảm ơn mọi người đã yêu thương Changmie ^^  Yêu mọi người 3000 lần',
-                text: "Tối nay 19h30 Mie livestream trên tiktok @chang.mie nha cả nhà. À cảm ơn mọi người đã nghĩ mình nhạt nha <3",
+                title: 'Cảm ơn đã chọn mốt nhớ chọn Cu bự nha ^^  Yêu mọi người 3000 lần',
+                text: "Tối nay t show Cu trên Facebook nha <3",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
                     window.location = 'http://fb.com';
